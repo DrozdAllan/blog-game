@@ -1,26 +1,26 @@
-import 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/unenv/runtime/polyfill/fetch.node.mjs';
+import 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/unenv/runtime/polyfill/fetch.node.mjs';
 import { Server } from 'http';
 import { tmpdir } from 'os';
 import { join } from 'path';
 import { mkdirSync } from 'fs';
 import { parentPort, threadId } from 'worker_threads';
-import { provider, isWindows } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/std-env/dist/index.mjs';
-import { toEventHandler, defineEventHandler, handleCacheHeaders, createEvent, createApp, createRouter, lazyEventHandler, eventHandler, useQuery } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/h3/dist/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/ohmyfetch/dist/node.mjs';
-import destr from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/destr/dist/index.mjs';
-import { createRouter as createRouter$1 } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/radix3/dist/index.mjs';
-import { createCall, createFetch } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/hookable/dist/index.mjs';
-import { hash } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/ohash/dist/index.mjs';
-import { createStorage } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/unstorage/dist/index.mjs';
-import _unstorage_drivers_fs from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/unstorage/drivers/fs.mjs';
-import { withQuery, joinURL } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/ufo/dist/index.mjs';
-import { createRenderer } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/vue-bundle-renderer/dist/index.mjs';
-import devalue from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/@nuxt/devalue/dist/devalue.mjs';
-import { snakeCase } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/scule/dist/index.mjs';
-import { createDefu } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/defu/dist/defu.mjs';
-import htmlTemplate from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/views/document.template.mjs';
-import { renderToString as renderToString$2 } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/vue/server-renderer/index.mjs';
+import { provider, isWindows } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/std-env/dist/index.mjs';
+import { toEventHandler, defineEventHandler, handleCacheHeaders, createEvent, createApp, createRouter, lazyEventHandler, eventHandler, useQuery } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/h3/dist/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/ohmyfetch/dist/node.mjs';
+import destr from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/destr/dist/index.mjs';
+import { createRouter as createRouter$1 } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/radix3/dist/index.mjs';
+import { createCall, createFetch } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/hookable/dist/index.mjs';
+import { hash } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/ohash/dist/index.mjs';
+import { createStorage } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/unstorage/dist/index.mjs';
+import _unstorage_drivers_fs from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/unstorage/drivers/fs.mjs';
+import { withQuery, joinURL } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/ufo/dist/index.mjs';
+import { createRenderer } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/vue-bundle-renderer/dist/index.mjs';
+import devalue from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/@nuxt/devalue/dist/devalue.mjs';
+import { snakeCase } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/scule/dist/index.mjs';
+import { createDefu } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/defu/dist/defu.mjs';
+import htmlTemplate from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/views/document.template.mjs';
+import { renderToString as renderToString$2 } from 'file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/vue/server-renderer/index.mjs';
 
 const _runtimeConfig = (function(a){return {app:{baseURL:"\u002F",buildAssetsDir:"\u002F_nuxt\u002F",cdnURL:a},nitro:{routes:{},envPrefix:"NUXT_"},public:{API_URL:"http:\u002F\u002Flocalhost:1337"},secretKey:a}}(""));
 const ENV_PREFIX = "NITRO_";
@@ -68,7 +68,7 @@ function timingMiddleware(_req, res, next) {
   next();
 }
 
-const serverAssets = [{"baseName":"server","dir":"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"F:/ProjetsDev/ProjetsEnCours/blog_game/front/server/assets"}];
 
 const assets = createStorage();
 
@@ -82,10 +82,10 @@ const useStorage = () => storage;
 
 storage.mount('/assets', assets);
 
-storage.mount('root', _unstorage_drivers_fs({"driver":"fs","base":"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app"}));
-storage.mount('src', _unstorage_drivers_fs({"driver":"fs","base":"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/server"}));
-storage.mount('build', _unstorage_drivers_fs({"driver":"fs","base":"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt"}));
-storage.mount('cache', _unstorage_drivers_fs({"driver":"fs","base":"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/cache"}));
+storage.mount('root', _unstorage_drivers_fs({"driver":"fs","base":"F:/ProjetsDev/ProjetsEnCours/blog_game/front"}));
+storage.mount('src', _unstorage_drivers_fs({"driver":"fs","base":"F:/ProjetsDev/ProjetsEnCours/blog_game/front/server"}));
+storage.mount('build', _unstorage_drivers_fs({"driver":"fs","base":"F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt"}));
+storage.mount('cache', _unstorage_drivers_fs({"driver":"fs","base":"F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/cache"}));
 
 const defaultCacheOptions = {
   name: "_",
@@ -301,11 +301,11 @@ const errorHandler = (async function errorhandler(_error, event) {
   event.res.end(html);
 });
 
-const _6812fa = () => Promise.resolve().then(function () { return renderer$1; });
+const _333bdc = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _6812fa, lazy: true, method: undefined },
-  { route: '/**', handler: _6812fa, lazy: true, method: undefined }
+  { route: '/__nuxt_error', handler: _333bdc, lazy: true, method: undefined },
+  { route: '/**', handler: _333bdc, lazy: true, method: undefined }
 ];
 
 function createNitroApp() {
@@ -387,8 +387,8 @@ function publicAssetsURL(...path) {
 const STATIC_ASSETS_BASE = process.env.NUXT_STATIC_BASE + "/" + process.env.NUXT_STATIC_VERSION;
 const NUXT_NO_SSR = process.env.NUXT_NO_SSR;
 const PAYLOAD_JS = "/payload.js";
-const getClientManifest = cachedImport(() => import('file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/dist/server/client.manifest.mjs'));
-const getSSRApp = !process.env.NUXT_NO_SSR && cachedImport(() => import('file://F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/dist/server/server.mjs'));
+const getClientManifest = cachedImport(() => import('file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/dist/server/client.manifest.mjs'));
+const getSSRApp = !process.env.NUXT_NO_SSR && cachedImport(() => import('file://F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/dist/server/server.mjs'));
 const getSSRRenderer = cachedResult(async () => {
   const clientManifest = await getClientManifest();
   if (!clientManifest) {

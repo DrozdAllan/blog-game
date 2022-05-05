@@ -1,34 +1,34 @@
 
 // --------------------
-// Request: F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry
+// Request: F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry
 // Parents: 
 // - <entry> ($id_c757eb9e)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_780217c4)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/paths.mjs ($id_687291f8)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/paths.mjs ($id_960a14d2)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/css.mjs ($id_3f406d01)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/plugins/server.mjs ($id_0be029ca)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/root-component.mjs ($id_7b9cc68c)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/app-component.mjs ($id_91be8433)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/css.mjs ($id_63186b97)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/plugins/server.mjs ($id_fcf6a6e4)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/root-component.mjs ($id_1e7a3601)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/app-component.mjs ($id_9a4a6f0a)
 // --------------------
-const $id_bacadd48 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_303a5a10 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/ohmyfetch/dist/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/paths.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/paths.mjs");
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/css.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/css.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/root-component.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/app-component.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/app-component.mjs");
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = __vite_ssr_import_1__.$fetch.create({
@@ -93,7 +93,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // --------------------
 // Request: /node_modules/vue/dist/vue.cjs.js
 // Parents: 
-// - F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry ($id_bacadd48)
+// - F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry ($id_303a5a10)
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_53345950)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_d5b6a221)
@@ -103,7 +103,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/composables/cookie.mjs ($id_511b441d)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/components.plugin.mjs ($id_60f34f8f)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/components.plugin.mjs ($id_b0c2cf97)
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
@@ -118,7 +118,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs ($id_9564cae9)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs ($id_fdcacb33)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
@@ -128,7 +128,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 
 // --------------------
 const $id_60f0615f = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/vue/dist/vue.cjs.js")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/vue/dist/vue.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -137,19 +137,19 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/vue/dist/vue.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/vue/dist/vue.cjs.js\".")
   })
 
 
 // --------------------
 // Request: /node_modules/ohmyfetch/dist/index.mjs
 // Parents: 
-// - F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry ($id_bacadd48)
+// - F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry ($id_303a5a10)
 // Dependencies: 
 
 // --------------------
 const $id_780217c4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/ohmyfetch/dist/index.mjs")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/ohmyfetch/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -158,18 +158,18 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/ohmyfetch/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/ohmyfetch/dist/index.mjs\".")
   })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/paths.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/paths.mjs
 // Parents: 
-// - F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry ($id_bacadd48)
+// - F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry ($id_303a5a10)
 // Dependencies: 
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
 // --------------------
-const $id_687291f8 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_960a14d2 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/ufo/dist/index.mjs");
 
 const appConfig = {"baseURL":"/","buildAssetsDir":"/_nuxt/","assetsPath":{},"cdnURL":"","head":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[],"style":[],"script":[]}}
@@ -190,14 +190,14 @@ Object.defineProperty(__vite_ssr_exports__, "publicAssetsURL", { enumerable: tru
 // --------------------
 // Request: /node_modules/ufo/dist/index.mjs
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/paths.mjs ($id_687291f8)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/paths.mjs ($id_960a14d2)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 
 // --------------------
 const $id_614de060 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/ufo/dist/index.mjs")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/ufo/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -206,14 +206,14 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/ufo/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/ufo/dist/index.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/app/index.mjs
 // Parents: 
-// - F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry ($id_bacadd48)
+// - F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry ($id_303a5a10)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_d5b6a221)
 // - /node_modules/nuxt/dist/app/composables/hydrate.mjs ($id_0063df1b)
 // - /node_modules/nuxt/dist/app/composables/state.mjs ($id_7d872108)
@@ -233,7 +233,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
 // - /pages/article/[id].vue ($id_c6f02538)
 // - /pages/index.vue ($id_cca58e97)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs ($id_9564cae9)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs ($id_fdcacb33)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
 // - /node_modules/nuxt/dist/app/composables/index.mjs ($id_b067a79a)
@@ -428,7 +428,7 @@ function defineGetter(obj, key, val) {
 
 // --------------------
 const $id_a2c811c4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/hookable/dist/index.mjs")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/hookable/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -437,7 +437,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/hookable/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/hookable/dist/index.mjs\".")
   })
 
 
@@ -449,7 +449,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
 
 // --------------------
 const $id_a569ca2d = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/unctx/dist/index.mjs")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/unctx/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -458,7 +458,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/unctx/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/unctx/dist/index.mjs\".")
   })
 
 
@@ -590,7 +590,7 @@ Object.defineProperty(__vite_ssr_exports__, "legacyPlugin", { enumerable: true, 
 
 // --------------------
 const $id_39e12da7 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/unenv/runtime/mock/proxy.mjs")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/unenv/runtime/mock/proxy.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -599,7 +599,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/unenv/runtime/mock/proxy.mjs\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/unenv/runtime/mock/proxy.mjs\".")
   })
 
 
@@ -736,7 +736,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 
 // --------------------
 const $id_f9a4a698 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/vue-router/dist/vue-router.cjs.js")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/vue-router/dist/vue-router.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -745,7 +745,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/vue-router/dist/vue-router.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/vue-router/dist/vue-router.cjs.js\".")
   })
 
 
@@ -1061,7 +1061,7 @@ Object.defineProperty(__vite_ssr_exports__, "useLazyFetch", { enumerable: true, 
 
 // --------------------
 const $id_b1b82cf3 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/ohash/dist/index.mjs")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/ohash/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1070,7 +1070,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/ohash/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/ohash/dist/index.mjs\".")
   })
 
 
@@ -1163,7 +1163,7 @@ function writeServerCookie(event, name, value, opts = {}) {
 
 // --------------------
 const $id_f4975261 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/cookie-es/dist/index.mjs")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/cookie-es/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1172,7 +1172,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/cookie-es/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/cookie-es/dist/index.mjs\".")
   })
 
 
@@ -1186,7 +1186,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
 
 // --------------------
 const $id_57d7ded6 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/h3/dist/index.mjs")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/h3/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1195,7 +1195,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/h3/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/h3/dist/index.mjs\".")
   })
 
 
@@ -1207,7 +1207,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
 
 // --------------------
 const $id_03d15ecd = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/destr/dist/index.mjs")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/destr/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1216,7 +1216,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/destr/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/destr/dist/index.mjs\".")
   })
 
 
@@ -1475,7 +1475,7 @@ __vite_ssr_exports__.default = defineNuxtLink({ componentName: "NuxtLink" });
 // Request: /node_modules/nuxt/dist/head/runtime/index.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs ($id_9564cae9)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs ($id_fdcacb33)
 // Dependencies: 
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
 // --------------------
@@ -1525,7 +1525,7 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 
 // --------------------
 const $id_852b06a2 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/@vue/shared/dist/shared.cjs.js")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/@vue/shared/dist/shared.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1534,18 +1534,18 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/@vue/shared/dist/shared.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/@vue/shared/dist/shared.cjs.js\".")
   })
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/css.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/css.mjs
 // Parents: 
-// - F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry ($id_bacadd48)
+// - F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry ($id_303a5a10)
 // Dependencies: 
 // - /assets/css/tailwind.css ($id_f75548e1)
 // --------------------
-const $id_3f406d01 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_63186b97 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.css");
 ;
 }
@@ -1554,30 +1554,30 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/tailwind.cs
 // --------------------
 // Request: /assets/css/tailwind.css
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/css.mjs ($id_3f406d01)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/css.mjs ($id_63186b97)
 // Dependencies: 
 
 // --------------------
 const $id_f75548e1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/*! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.fixed{position:fixed}.sticky{position:-webkit-sticky;position:sticky}.bottom-0{bottom:0}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.flex{display:flex}.grid{display:grid}.w-full{width:100%}.grid-cols-12{grid-template-columns:repeat(12,minmax(0,1fr))}.grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid-cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.justify-items-center{justify-items:center}.gap-4{gap:1rem}.gap-3{gap:.75rem}.gap-0{gap:0}.gap-2{gap:.5rem}.gap-0\\.5{gap:.125rem}.rounded-lg{border-radius:.5rem}.bg-blue-300{--tw-bg-opacity:1;background-color:rgb(147 197 253/var(--tw-bg-opacity))}.bg-blue-200{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity))}.p-4{padding:1rem}.p-2{padding:.5rem}.p-0{padding:0}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-4{padding-left:1rem;padding-right:1rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-2{padding-left:.5rem;padding-right:.5rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.font-bold{font-weight:700}.text-orange-500{--tw-text-opacity:1;color:rgb(249 115 22/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.decoration-sky-500{-webkit-text-decoration-color:#0ea5e9;text-decoration-color:#0ea5e9}.underline-offset-1{text-underline-offset:1px}.hover\\:bg-cyan-600:hover{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}";
+__vite_ssr_exports__.default = "/*! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com*/*,:after,:before{border:0 solid #e5e7eb;box-sizing:border-box}:after,:before{--tw-content:\"\"}html{-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\";line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4}body{line-height:inherit;margin:0}hr{border-top-width:1px;color:inherit;height:0}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{border-collapse:collapse;border-color:inherit;text-indent:0}button,input,optgroup,select,textarea{color:inherit;font-family:inherit;font-size:100%;line-height:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{color:#9ca3af;opacity:1}input:-ms-input-placeholder,textarea:-ms-input-placeholder{color:#9ca3af;opacity:1}input::placeholder,textarea::placeholder{color:#9ca3af;opacity:1}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{height:auto;max-width:100%}[hidden]{display:none}*,:after,:before{--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.sticky{position:-webkit-sticky;position:sticky}.bottom-0{bottom:0}.z-50{z-index:50}.flex{display:flex}.grid{display:grid}.w-full{width:100%}.grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.justify-items-center{justify-items:center}.gap-4{gap:1rem}.gap-0\\.5{gap:.125rem}.gap-0{gap:0}.rounded-lg{border-radius:.5rem}.bg-blue-300{--tw-bg-opacity:1;background-color:rgb(147 197 253/var(--tw-bg-opacity))}.bg-indigo-500{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity))}.bg-blue-200{--tw-bg-opacity:1;background-color:rgb(191 219 254/var(--tw-bg-opacity))}.py-2{padding-bottom:.5rem;padding-top:.5rem}.px-2{padding-left:.5rem;padding-right:.5rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.font-bold{font-weight:700}.text-orange-500{--tw-text-opacity:1;color:rgb(249 115 22/var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.decoration-sky-500{-webkit-text-decoration-color:#0ea5e9;text-decoration-color:#0ea5e9}.underline-offset-1{text-underline-offset:1px}.hover\\:bg-cyan-600:hover{--tw-bg-opacity:1;background-color:rgb(8 145 178/var(--tw-bg-opacity))}";
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/plugins/server.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/plugins/server.mjs
 // Parents: 
-// - F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry ($id_bacadd48)
+// - F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry ($id_303a5a10)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_9871bba0)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/components.plugin.mjs ($id_60f34f8f)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/components.plugin.mjs ($id_b0c2cf97)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // --------------------
-const $id_0be029ca = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_fcf6a6e4 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/preload.server.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/components.plugin.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/components.plugin.mjs");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs");
 
@@ -1598,7 +1598,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /node_modules/nuxt/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/plugins/server.mjs ($id_0be029ca)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/plugins/server.mjs ($id_fcf6a6e4)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // --------------------
@@ -1619,13 +1619,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/components.plugin.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/components.plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/plugins/server.mjs ($id_0be029ca)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/plugins/server.mjs ($id_fcf6a6e4)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // --------------------
-const $id_60f34f8f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_b0c2cf97 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
@@ -1644,7 +1644,7 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/plugins/server.mjs ($id_0be029ca)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/plugins/server.mjs ($id_fcf6a6e4)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2127,7 +2127,7 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 
 // --------------------
 const $id_d7afab65 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/defu/dist/defu.mjs")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/defu/dist/defu.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -2136,20 +2136,20 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/defu/dist/defu.mjs\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/defu/dist/defu.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/plugin.mjs
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/plugins/server.mjs ($id_0be029ca)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/plugins/server.mjs ($id_fcf6a6e4)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/head/runtime/components.mjs ($id_b2a29d6f)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/meta.config.mjs ($id_1ca48153)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/meta.config.mjs ($id_482cfec3)
 // --------------------
 const $id_a2650341 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2160,7 +2160,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/meta.config.mjs");
 
 const metaMixin = {
   [__vite_ssr_import_4__.default.mixinKey]() {
@@ -2399,13 +2399,13 @@ Object.defineProperty(__vite_ssr_exports__, "Body", { enumerable: true, configur
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/meta.config.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // Dependencies: 
 
 // --------------------
-const $id_1ca48153 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_482cfec3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[],"style":[],"script":[]},"mixinKey":"created"};
 }
 
@@ -2413,7 +2413,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"widt
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/plugins/server.mjs ($id_0be029ca)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/plugins/server.mjs ($id_fcf6a6e4)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
@@ -2421,9 +2421,9 @@ __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"widt
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/routes.mjs ($id_a0fe62e8)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/router.options.mjs ($id_887d33cf)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/middleware.mjs ($id_0995411b)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/routes.mjs ($id_dfa1d1d0)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/router.options.mjs ($id_2ace3170)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/middleware.mjs ($id_84a5ea59)
 // --------------------
 const $id_a090977b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2438,11 +2438,11 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/routes.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/routes.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/router.options.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/router.options.mjs");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/middleware.mjs");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/middleware.mjs");
 
 function createCurrentLocation(base, location) {
   const { pathname, search, hash } = location;
@@ -2676,7 +2676,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/routes.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
@@ -2685,7 +2685,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/article/[id].vue ($id_c6f02538)
 // - /pages/index.vue ($id_cca58e97)
 // --------------------
-const $id_a0fe62e8 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_dfa1d1d0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/article/[id].vue?macro=true");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/index.vue?macro=true");
@@ -2694,7 +2694,7 @@ __vite_ssr_exports__.default = [
   {
     name: "article-id",
     path: "/article/:id",
-    file: "F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/pages/article/[id].vue",
+    file: "F:/ProjetsDev/ProjetsEnCours/blog_game/front/pages/article/[id].vue",
     children: [],
     meta: __vite_ssr_import_0__.meta,
     alias: __vite_ssr_import_0__.meta?.alias || [],
@@ -2703,7 +2703,7 @@ __vite_ssr_exports__.default = [
   {
     name: "index",
     path: "/",
-    file: "F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/pages/index.vue",
+    file: "F:/ProjetsDev/ProjetsEnCours/blog_game/front/pages/index.vue",
     children: [],
     meta: __vite_ssr_import_1__.meta,
     alias: __vite_ssr_import_1__.meta?.alias || [],
@@ -2716,7 +2716,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /pages/article/[id].vue?macro=true
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/routes.mjs ($id_a0fe62e8)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/routes.mjs ($id_dfa1d1d0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2754,7 +2754,7 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_4__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/pages/article/[id].vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_4__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "F:/ProjetsDev/ProjetsEnCours/blog_game/front/pages/article/[id].vue"]]);
 
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
@@ -2778,7 +2778,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 
 // --------------------
 const $id_b215fa1c = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/vue/server-renderer/index.js")
+import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/vue/server-renderer/index.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -2787,7 +2787,7 @@ import("file:///F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/vue/server-renderer/index.js\".")
+    throw new Error("[vite dev] Error loading external \"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/vue/server-renderer/index.js\".")
   })
 
 
@@ -2823,7 +2823,7 @@ __vite_ssr_exports__.default = (sfc, props) => {
 // --------------------
 // Request: /pages/index.vue?macro=true
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/routes.mjs ($id_a0fe62e8)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/routes.mjs ($id_dfa1d1d0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
@@ -2885,7 +2885,7 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_6__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/pages/index.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_6__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "F:/ProjetsDev/ProjetsEnCours/blog_game/front/pages/index.vue"]]);
 
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
@@ -2895,7 +2895,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/article/[id].vue
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/routes.mjs ($id_a0fe62e8)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/routes.mjs ($id_dfa1d1d0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2933,7 +2933,7 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_4__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/pages/article/[id].vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_4__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "F:/ProjetsDev/ProjetsEnCours/blog_game/front/pages/article/[id].vue"]]);
 ;
 }
 
@@ -2941,7 +2941,7 @@ __vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_4__.default(_sf
 // --------------------
 // Request: /pages/index.vue
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/routes.mjs ($id_a0fe62e8)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/routes.mjs ($id_dfa1d1d0)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
@@ -3003,19 +3003,19 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_6__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/pages/index.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_6__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "F:/ProjetsDev/ProjetsEnCours/blog_game/front/pages/index.vue"]]);
 ;
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/router.options.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/router.options.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 
 // --------------------
-const $id_887d33cf = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_2ace3170 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const configRouterOptions = {}
 __vite_ssr_exports__.default = {
 ...configRouterOptions,
@@ -3024,13 +3024,13 @@ __vite_ssr_exports__.default = {
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/middleware.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/middleware.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 
 // --------------------
-const $id_0995411b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_84a5ea59 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const globalMiddleware = []
 Object.defineProperty(__vite_ssr_exports__, "globalMiddleware", { enumerable: true, configurable: true, get(){ return globalMiddleware }});
 const namedMiddleware = {}
@@ -3039,13 +3039,13 @@ Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: tru
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/root-component.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/root-component.mjs
 // Parents: 
-// - F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry ($id_bacadd48)
+// - F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry ($id_303a5a10)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // --------------------
-const $id_7b9cc68c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_1e7a3601 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -3055,11 +3055,11 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/root-component.mjs ($id_7b9cc68c)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/root-component.mjs ($id_1e7a3601)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/error-component.mjs ($id_544b5741)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/error-component.mjs ($id_279c7006)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
@@ -3069,7 +3069,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 // @ts-ignore
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/error-component.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/error-component.mjs");
 
 
 
@@ -3132,18 +3132,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/error-component.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/error-component.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // --------------------
-const $id_544b5741 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_279c7006 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -3153,7 +3153,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-error-page.vue
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/error-component.mjs ($id_544b5741)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/error-component.mjs ($id_279c7006)
 // Dependencies: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -3237,7 +3237,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
 }
 
 
@@ -3247,7 +3247,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs ($id_9564cae9)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs ($id_fdcacb33)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css ($id_e68b6b38)
@@ -3256,7 +3256,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 const $id_b90d4d0f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -3354,12 +3354,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs
 // Parents: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -3371,7 +3371,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/pages/runtime/composables.mjs ($id_ff6ed455)
 // --------------------
-const $id_9564cae9 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_fdcacb33 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
 Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.useHead }});
@@ -3474,7 +3474,7 @@ Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true
 // --------------------
 // Request: /node_modules/nuxt/dist/app/compat/vue-demi.mjs
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs ($id_9564cae9)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs ($id_fdcacb33)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // --------------------
@@ -3529,7 +3529,7 @@ Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configura
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/composables.mjs
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs ($id_9564cae9)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs ($id_fdcacb33)
 // Dependencies: 
 
 // --------------------
@@ -3562,14 +3562,14 @@ __vite_ssr_exports__.default = ".bg-white[data-v-573335c0]{--tw-bg-opacity:1;bac
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs ($id_9564cae9)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs ($id_fdcacb33)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css ($id_a2b3b709)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_14c8b574 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -3645,7 +3645,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
 }
 
 
@@ -3666,14 +3666,14 @@ __vite_ssr_exports__.default = ".bg-white[data-v-0914425d]{--tw-bg-opacity:1;bac
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs ($id_9564cae9)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs ($id_fdcacb33)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css ($id_2691164c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_bc2d74a1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -3755,7 +3755,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
 }
 
 
@@ -3772,13 +3772,13 @@ __vite_ssr_exports__.default = ".bg-white[data-v-1da4697d]{--tw-bg-opacity:1;bac
 
 
 // --------------------
-// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/app-component.mjs
+// Request: /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/app-component.mjs
 // Parents: 
-// - F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry ($id_bacadd48)
+// - F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry ($id_303a5a10)
 // Dependencies: 
 // - /app.vue ($id_2b46e842)
 // --------------------
-const $id_91be8433 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_9a4a6f0a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -3788,7 +3788,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /app.vue
 // Parents: 
-// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/app-component.mjs ($id_91be8433)
+// - /@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/app-component.mjs ($id_9a4a6f0a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -3842,16 +3842,16 @@ _sfc_main.setup = (props, ctx) => {
 };
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/app.vue"]]);
+__vite_ssr_exports__.default = /* @__PURE__ */ __vite_ssr_import_5__.default(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "F:/ProjetsDev/ProjetsEnCours/blog_game/front/app.vue"]]);
 ;
 }
 
 
 const __modules__ = {
-  "F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry": $id_bacadd48,
+  "F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry": $id_303a5a10,
   "/node_modules/vue/dist/vue.cjs.js": $id_60f0615f,
   "/node_modules/ohmyfetch/dist/index.mjs": $id_780217c4,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/paths.mjs": $id_687291f8,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/paths.mjs": $id_960a14d2,
   "/node_modules/ufo/dist/index.mjs": $id_614de060,
   "/node_modules/nuxt/dist/app/index.mjs": $id_36927477,
   "/node_modules/nuxt/dist/app/nuxt.mjs": $id_e069d411,
@@ -3880,36 +3880,36 @@ const __modules__ = {
   "/node_modules/nuxt/dist/head/runtime/index.mjs": $id_b7351483,
   "/node_modules/nuxt/dist/head/runtime/composables.mjs": $id_04ea9504,
   "/node_modules/@vue/shared/dist/shared.cjs.js": $id_852b06a2,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/css.mjs": $id_3f406d01,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/css.mjs": $id_63186b97,
   "/assets/css/tailwind.css": $id_f75548e1,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/plugins/server.mjs": $id_0be029ca,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/plugins/server.mjs": $id_fcf6a6e4,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_9871bba0,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/components.plugin.mjs": $id_60f34f8f,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/components.plugin.mjs": $id_b0c2cf97,
   "/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs": $id_e6f12003,
   "/node_modules/@vueuse/head/dist/index.mjs": $id_c032264e,
   "/node_modules/defu/dist/defu.mjs": $id_d7afab65,
   "/node_modules/nuxt/dist/head/runtime/plugin.mjs": $id_a2650341,
   "/node_modules/nuxt/dist/head/runtime/components.mjs": $id_b2a29d6f,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/meta.config.mjs": $id_1ca48153,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/meta.config.mjs": $id_482cfec3,
   "/node_modules/nuxt/dist/pages/runtime/router.mjs": $id_a090977b,
   "/node_modules/nuxt/dist/pages/runtime/page.mjs": $id_5fc14cdc,
   "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_80f433aa,
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_69c52686,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/routes.mjs": $id_a0fe62e8,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/routes.mjs": $id_dfa1d1d0,
   "/pages/article/[id].vue?macro=true": $id_8530f7fa,
   "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
   "/@id/plugin-vue:export-helper": $id_bbb863c1,
   "/pages/index.vue?macro=true": $id_5dd70240,
   "/pages/article/[id].vue": $id_c6f02538,
   "/pages/index.vue": $id_cca58e97,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/router.options.mjs": $id_887d33cf,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/middleware.mjs": $id_0995411b,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/root-component.mjs": $id_7b9cc68c,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/router.options.mjs": $id_2ace3170,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/middleware.mjs": $id_84a5ea59,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/root-component.mjs": $id_1e7a3601,
   "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_e9bfada3,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/error-component.mjs": $id_544b5741,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/error-component.mjs": $id_279c7006,
   "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_8cc6d73f,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_b90d4d0f,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/imports.mjs": $id_9564cae9,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/imports.mjs": $id_fdcacb33,
   "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_a8110be7,
   "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_0c5717a4,
   "/node_modules/nuxt/dist/pages/runtime/composables.mjs": $id_ff6ed455,
@@ -3918,7 +3918,7 @@ const __modules__ = {
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css": $id_a2b3b709,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue": $id_bc2d74a1,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css": $id_2691164c,
-  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/.nuxt/app-component.mjs": $id_91be8433,
+  "/@id/__x00__virtual:F:/ProjetsDev/ProjetsEnCours/blog_game/front/.nuxt/app-component.mjs": $id_9a4a6f0a,
   "/app.vue": $id_2b46e842
 }
 
@@ -4007,4 +4007,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__("F:/ProjetsDev/ProjetsEnCours/blog_game/bloggame-app/node_modules/nuxt/dist/app/entry")
+export default await __ssrLoadModule__("F:/ProjetsDev/ProjetsEnCours/blog_game/front/node_modules/nuxt/dist/app/entry")

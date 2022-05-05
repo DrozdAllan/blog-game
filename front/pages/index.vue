@@ -16,5 +16,6 @@
 </template>
 <script setup lang="ts">
 const config = useRuntimeConfig().public;
-const {data: articles} = await useFetch('http://localhost:1337/api/articles?sort=updatedAt:desc&populate=image');
+const {data: articles} = await useFetch('http://localhost:1337/api/articles?sort=updatedAt:desc&populate=image'
+);
 </script>
